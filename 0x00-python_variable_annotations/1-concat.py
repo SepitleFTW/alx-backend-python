@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-"""
-task2 conc 2 strings
-"""
+'''Task 1: Basic annotations - concat
+'''
 
 
-def concat(str1: str1, str2: str) -> str:
-    """
-    concing 2 strings
-    """
-
+def concat(str1: str, str2: str) -> str:
+    '''Concatenates two strings.
+    '''
     return str1 + str2
