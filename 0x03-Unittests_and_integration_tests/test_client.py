@@ -151,7 +151,8 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         )
 
     def test_public_repos_with_license(self) -> None:
-        """Tests if `public_repos` method works properly with a specific license."""
+        """Tests if `public_repos` method works
+        properly with a specific license."""
         self.assertEqual(
             GithubOrgClient("google").public_repos(license="apache-2.0"),
             self.apache2_repos,
